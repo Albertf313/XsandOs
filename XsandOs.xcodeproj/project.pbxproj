@@ -15,6 +15,9 @@
 		24DE3B782AD9BEE700C0EC24 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE3B772AD9BEE700C0EC24 /* GameModels.swift */; };
 		24DE3B7B2AD9C2D400C0EC24 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE3B7A2AD9C2D400C0EC24 /* ViewModifiers.swift */; };
 		24DE3B7E2AD9C39800C0EC24 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE3B7D2AD9C39800C0EC24 /* GameView.swift */; };
+		24DE3B802AD9CDD100C0EC24 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE3B7F2AD9CDD100C0EC24 /* GameService.swift */; };
+		24DE3B822AD9D86800C0EC24 /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE3B812AD9D86800C0EC24 /* GameSquare.swift */; };
+		24DE3B842AD9EAF900C0EC24 /* SqaureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DE3B832AD9EAF900C0EC24 /* SqaureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		24DE3B772AD9BEE700C0EC24 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
 		24DE3B7A2AD9C2D400C0EC24 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		24DE3B7D2AD9C39800C0EC24 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		24DE3B7F2AD9CDD100C0EC24 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		24DE3B812AD9D86800C0EC24 /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
+		24DE3B832AD9EAF900C0EC24 /* SqaureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqaureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				24DE3B7D2AD9C39800C0EC24 /* GameView.swift */,
+				24DE3B812AD9D86800C0EC24 /* GameSquare.swift */,
+				24DE3B7F2AD9CDD100C0EC24 /* GameService.swift */,
+				24DE3B832AD9EAF900C0EC24 /* SqaureView.swift */,
 			);
 			path = GameScreen;
 			sourceTree = "<group>";
@@ -177,8 +186,11 @@
 				24DE3B672AD9BC0100C0EC24 /* StartView.swift in Sources */,
 				24DE3B782AD9BEE700C0EC24 /* GameModels.swift in Sources */,
 				24DE3B652AD9BC0100C0EC24 /* AppEntry.swift in Sources */,
+				24DE3B802AD9CDD100C0EC24 /* GameService.swift in Sources */,
 				24DE3B7B2AD9C2D400C0EC24 /* ViewModifiers.swift in Sources */,
 				24DE3B7E2AD9C39800C0EC24 /* GameView.swift in Sources */,
+				24DE3B822AD9D86800C0EC24 /* GameSquare.swift in Sources */,
+				24DE3B842AD9EAF900C0EC24 /* SqaureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +333,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,6 +364,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
