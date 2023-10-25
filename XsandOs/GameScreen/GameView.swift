@@ -99,5 +99,6 @@ struct PlayerButtonStyle: ButtonStyle {
                         )
             .foregroundColor(.white)
     }
+    
 }
 
